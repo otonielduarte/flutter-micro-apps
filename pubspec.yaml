@@ -1,0 +1,31 @@
+name: microapps_flutter
+description: A new poc for flutter microappss.
+publish_to: none
+version: 1.0.1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  app_example:
+    git:
+      url: git@github.com:otonielduarte/app_example.git #For private repositories, must use ssh
+      ref: main
+  
+  core:
+    git:
+      url: git@github.com:otonielduarte/app-core-flutter.git #For private repositories, must use ssh
+      ref: main
+   
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluro: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
