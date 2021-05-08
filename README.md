@@ -1,62 +1,25 @@
-# Definições e Padrões do Projeto
+<!-- ABOUT THE PROJECT -->
+## Flutter Microapps Poc
 
-Esta documentação encontra-se alguns acordos firmados pelos times de Desenvolvimento envolvidos com a tecnologia Flutter e como sera trabalhado.
+This is as poc for microapps in Flutter.
 
----
-## Versionamento
+### Built With
 
-A Forma de versionamento definida foi utilizando Tags.
-
-´´´
-Listagem de Tags: git tag -n
-Criação de Tags: git tag 'v<mejor.minor.patch>'
-Enviar as Tags: git push --tags
-´´´´
-
-Links úteis
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
----
-## Arquitetura
-
-desrição da forma de versionamento
-
-Links úteis
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
----
-## Testes
-
-desrição da forma de versionamento
-
-Links úteis
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
----
-## Code Review
-desrição da forma de versionamento
-
-Links úteis
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
----
-## Scripts 
-desrição da forma de versionamento
-
-Links úteis
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
----
-### Outros
-desrição da forma de versionamento
+<!-- GETTING STARTED -->
+## Getting Started
 
-Links úteis
+Flutter SDK.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Install [Flutter](https://flutter.dev/docs/get-started/install)
+
+2. Install dependêncies
+   ```sh
+   flutter pub get
+   ```
+3. run
+   ```sh
+   flutter run
+   ```
