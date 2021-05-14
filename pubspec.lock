@@ -4,11 +4,9 @@ packages:
   app_example:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: "0308213c6c834b41b534c0fbe4d3c7379237faf1"
-      url: "git@github.com:otonielduarte/app_example.git"
-    source: git
+      path: "../../app_example"
+      relative: true
+    source: path
     version: "0.0.1"
   async:
     dependency: transitive
@@ -99,6 +97,18 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: "direct main"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.3"
   matcher:
     dependency: transitive
     description:

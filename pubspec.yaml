@@ -7,16 +7,23 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+
   app_example:
-    git:
-      url: git@github.com:otonielduarte/app_example.git #For private repositories, must use ssh
-      ref: main
+    path: ../../app_example
+  
+#  app_example:
+#    git:
+#      url: git@github.com:otonielduarte/app_example.git #For private repositories, must use ssh
+#      ref: main
   
   core:
     git:
       url: git@github.com:otonielduarte/app-core-flutter.git #For private repositories, must use ssh
       ref: main
-   
+      
+  flutter_web_plugins:
+    sdk: flutter
+
   flutter:
     sdk: flutter
 
