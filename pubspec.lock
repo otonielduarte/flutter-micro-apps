@@ -53,11 +53,9 @@ packages:
   core:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: bb67be8c08109fe14628a66758461fbf8a3bd993
-      url: "git@github.com:otonielduarte/app-core-flutter.git"
-    source: git
+      path: "../../app-core"
+      relative: true
+    source: path
     version: "1.0.1"
   cupertino_icons:
     dependency: "direct main"

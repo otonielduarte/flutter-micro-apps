@@ -16,10 +16,12 @@ dependencies:
 #      url: git@github.com:otonielduarte/app_example.git #For private repositories, must use ssh
 #      ref: main
   
+#  core:
+#    git:
+#      url: git@github.com:otonielduarte/app-core-flutter.git #For private repositories, must use ssh
+#      ref: main
   core:
-    git:
-      url: git@github.com:otonielduarte/app-core-flutter.git #For private repositories, must use ssh
-      ref: main
+    path: ../../app-core
       
   flutter_web_plugins:
     sdk: flutter
