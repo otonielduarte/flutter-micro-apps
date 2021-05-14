@@ -1,8 +1,11 @@
 import 'package:app_example/presentation/presentation.dart';
 import 'package:core/core.dart';
 import 'package:flutter/material.dart';
+import 'package:microapps_flutter/configure_nonweb.dart'
+    if (dart.library.html) 'package:microapps_flutter/configure_nonweb.dart';
 
 void main() {
+  configureApp();
   runApp(PocApp());
 }
 
