@@ -15,6 +15,7 @@ class PocApp extends StatelessWidget with BaseApp {
     super.registerRouters();
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Poc micro-apps',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -22,7 +23,7 @@ class PocApp extends StatelessWidget with BaseApp {
       navigatorKey: navigatorKey,
       onGenerateRoute: super.generateRoute,
       onUnknownRoute: super.generateUnknownRoute,
-      initialRoute: '/example',
+      initialRoute: '/',
     );
   }
 
