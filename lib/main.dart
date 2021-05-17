@@ -10,10 +10,11 @@ void main() {
 }
 
 class PocApp extends StatelessWidget with BaseApp {
+  PocApp() {
+    super.registerRouters();
+  }
   @override
   Widget build(BuildContext context) {
-    super.registerRouters();
-
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Poc micro-apps',
