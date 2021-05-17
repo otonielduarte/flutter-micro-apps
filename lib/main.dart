@@ -23,6 +23,7 @@ class PocApp extends StatelessWidget with BaseApp {
       ),
       navigatorKey: navigatorKey,
       onGenerateRoute: super.generateRoute,
+      onUnknownRoute: super.generateUnknownRoute,
       initialRoute: '/',
     );
   }
